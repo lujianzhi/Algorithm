@@ -1,4 +1,4 @@
-package stackandqueue;
+package datastructure.stackandqueue;
 
 /**
  * 使用数组实现栈

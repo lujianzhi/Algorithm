@@ -1,4 +1,4 @@
-package stackandqueue;
+package datastructure.stackandqueue;
 
 /**
  * Created by Ian.Lu on 2018/2/7.

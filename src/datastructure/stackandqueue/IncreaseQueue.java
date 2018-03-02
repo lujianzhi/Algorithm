@@ -1,4 +1,4 @@
-package stackandqueue;
+package datastructure.stackandqueue;
 
 /**
  * 扩容队列
