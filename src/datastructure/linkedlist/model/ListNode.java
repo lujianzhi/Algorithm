@@ -1,4 +1,4 @@
-package datastructure.linkedlist.revert;
+package datastructure.linkedlist.model;
 
 class ListNode {
     int val;

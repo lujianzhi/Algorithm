@@ -1,5 +1,7 @@
 package datastructure.linkedlist.revert;
 
+import datastructure.linkedlist.ListNode;
+
 public class RevertLinkedList {
     public static void main(String[] args) {
         ListNode node5 = new ListNode(5, null);

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/bubblesort/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/RevertLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/linkedlist/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/linkedlist/model/ListNode.java" beforeDir="false" />
+    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="链表反转&#10;LeetCode 206">
+      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/diy/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/diy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/model/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/RevertLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/RevertLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +133,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.linkedlist.revert.*" />
+          <option name="PATTERN" value="datastructure.linkedlist.diy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517997423904</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="链表反转&#10;LeetCode 206">
+      <created>1571452233516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571452233516</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +332,8 @@
     <MESSAGE value="Hello Algorithm" />
     <MESSAGE value="栈与队列" />
     <MESSAGE value="【数据结构与算法02】栈与队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="【数据结构与算法02】栈与队列" />
+    <MESSAGE value="链表反转&#10;LeetCode 206" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表反转&#10;LeetCode 206" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
