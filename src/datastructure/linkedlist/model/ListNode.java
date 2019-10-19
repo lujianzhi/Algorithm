@@ -1,10 +1,10 @@
 package datastructure.linkedlist.model;
 
-class ListNode {
-    int val;
-    ListNode next;
+public class ListNode {
+    public int val;
+    public ListNode next;
 
-    ListNode(int x, ListNode next) {
+    public ListNode(int x, ListNode next) {
         val = x;
         this.next = next;
     }
