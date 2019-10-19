@@ -1,6 +1,7 @@
 package algorithm.linkedlist.revert;
 
 
+import algorithm.linkedlist.LinkedListUtils;
 import algorithm.linkedlist.model.ListNode;
 
 public class RevertLinkedList {
@@ -12,14 +13,14 @@ public class RevertLinkedList {
         ListNode head = new ListNode(1, node2);
 
         System.out.println("反转前");
-        printLinkedList(head);
+        LinkedListUtils.printLinkedList(head);
 
         System.out.println();
         System.out.println("开始反转");
         ListNode reversedHead = reverseList(head);
 
         System.out.println("反转后");
-        printLinkedList(reversedHead);
+        LinkedListUtils.printLinkedList(reversedHead);
     }
 
     /**
@@ -44,10 +45,4 @@ public class RevertLinkedList {
         return pre;
     }
 
-    private static void printLinkedList(ListNode linkedList) {
-        while (linkedList != null) {
-            System.out.print(linkedList.val + "  ");
-            linkedList = linkedList.next;
-        }
-    }
 }

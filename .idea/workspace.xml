@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="链表反转&#10;LeetCode 206">
-      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/diy/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/diy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/model/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/RevertLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/linkedlist/revert/RevertLinkedList.java" afterDir="false" />
+    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="移包">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/LinkedListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/cycle/CycleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/linkedlist/revert/RevertLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/revert/RevertLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="datastructure.linkedlist" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -51,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RevertLinkedList">
+  <component name="RunManager" selected="Application.CycleLinkedList">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -113,6 +118,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.cycle.CycleLinkedList" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.linkedlist.cycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.Main" />
       <module name="Algorithm" />
@@ -134,20 +153,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="datastructure.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Test" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,19 +254,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.RevertLinkedList" />
+      <item itemvalue="Application.CycleLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CycleLinkedList" />
         <item itemvalue="Application.RevertLinkedList" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +309,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571452233516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="移包">
+      <created>1571452537192</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571452537192</updated>
+    </task>
+    <task id="LOCAL-00006" summary="移包">
+      <created>1571452616878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571452616878</updated>
+    </task>
+    <task id="LOCAL-00007" summary="移包">
+      <created>1571452740474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571452740474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +359,8 @@
     <MESSAGE value="栈与队列" />
     <MESSAGE value="【数据结构与算法02】栈与队列" />
     <MESSAGE value="链表反转&#10;LeetCode 206" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表反转&#10;LeetCode 206" />
+    <MESSAGE value="移包" />
+    <option name="LAST_COMMIT_MESSAGE" value="移包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
