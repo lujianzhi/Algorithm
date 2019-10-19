@@ -1,4 +1,4 @@
-package datastructure.linkedlist.diy;
+package datastructure.linkedlist;
 
 /**
  * Created by Ian.Lu on 2018/2/9.

@@ -1,4 +1,4 @@
-package datastructure.linkedlist.model;
+package algorithm.linkedlist.model;
 
 public class ListNode {
     public int val;

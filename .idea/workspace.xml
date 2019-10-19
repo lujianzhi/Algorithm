@@ -128,12 +128,12 @@
       </method>
     </configuration>
     <configuration name="RevertLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.linkedlist.revert.RevertLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.revert.RevertLinkedList" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.linkedlist.diy.*" />
+          <option name="PATTERN" value="datastructure.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
