@@ -36,6 +36,18 @@ public class CycleLinkedList {
         System.out.println(hasCycleHashSet(head));
     }
 
+    /**
+     * 我们可以通过检查一个结点此前是否被访问过来判断链表是否为环形链表。常用的方法是使用哈希表。
+     * <p>
+     * 我们遍历所有结点并在哈希表中存储每个结点的引用（或内存地址）。
+     * 如果当前结点为空结点 null（即已检测到链表尾部的下一个结点），那么我们已经遍历完整个链表，并且该链表不是环形链表。
+     * 如果当前结点的引用已经存在于哈希表中，那么返回 true（即该链表为环形链表）。
+     * <p>
+     * 作者：LeetCode
+     * 链接：https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode/
+     * 来源：力扣（LeetCode）
+     * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+     */
     private static boolean hasCycleHashSet(ListNode head) {
         if (head == null) {
             return false;

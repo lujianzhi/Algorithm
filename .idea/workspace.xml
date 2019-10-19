@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="移包">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/LinkedListUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/cycle/CycleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/linkedlist/revert/RevertLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/revert/RevertLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="LeetCode 141. 环形链表" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571452740474</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="LeetCode 141. 环形链表">
+      <created>1571455191452</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571455191452</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +362,8 @@
     <MESSAGE value="【数据结构与算法02】栈与队列" />
     <MESSAGE value="链表反转&#10;LeetCode 206" />
     <MESSAGE value="移包" />
-    <option name="LAST_COMMIT_MESSAGE" value="移包" />
+    <MESSAGE value="LeetCode 141. 环形链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 141. 环形链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
