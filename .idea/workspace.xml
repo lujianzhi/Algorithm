@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="LeetCode 141. 环形链表" />
+    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="LeetCode 141. 环形链表">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/mergetwosortedlists/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="E:/AS/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -51,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CycleLinkedList">
+  <component name="RunManager" selected="Application.Merge">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -127,13 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.Main" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.mergetwosortedlists.Merge" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.linkedlist.*" />
+          <option name="PATTERN" value="algorithm.linkedlist.mergetwosortedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,18 +254,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.RevertLinkedList" />
       <item itemvalue="Application.CycleLinkedList" />
+      <item itemvalue="Application.Merge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merge" />
         <item itemvalue="Application.CycleLinkedList" />
         <item itemvalue="Application.RevertLinkedList" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
