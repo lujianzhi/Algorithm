@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="LeetCode 141. 环形链表">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/mergetwosortedlists/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ce0833c8-ec81-4ac3-996a-a8080469f0cc" name="Default" comment="LeetCode 21. &#10;合并两个有序链表">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/linkedlist/removeNthFromEnd/RemoveFromEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Merge">
+  <component name="RunManager" selected="Application.RemoveFromEnd">
     <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -145,13 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevertLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.revert.RevertLinkedList" />
+    <configuration name="RemoveFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.removeNthFromEnd.RemoveFromEnd" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.linkedlist.*" />
+          <option name="PATTERN" value="algorithm.linkedlist.removeNthFromEnd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,13 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Test" />
+    <configuration name="RevertLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.linkedlist.revert.RevertLinkedList" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="datastructure.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,19 +252,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.RevertLinkedList" />
       <item itemvalue="Application.CycleLinkedList" />
       <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.RemoveFromEnd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveFromEnd" />
         <item itemvalue="Application.Merge" />
         <item itemvalue="Application.CycleLinkedList" />
         <item itemvalue="Application.RevertLinkedList" />
         <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571455191452</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LeetCode 21. &#10;合并两个有序链表">
+      <created>1571707561978</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571707561978</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +373,8 @@
     <MESSAGE value="链表反转&#10;LeetCode 206" />
     <MESSAGE value="移包" />
     <MESSAGE value="LeetCode 141. 环形链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 141. 环形链表" />
+    <MESSAGE value="LeetCode 21. &#10;合并两个有序链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 21. &#10;合并两个有序链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
