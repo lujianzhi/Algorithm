@@ -5,27 +5,30 @@ import java.util.Arrays;
 public class Test {
     public static void main(String[] args) {
 
-        int[] a = {4, 5, 6, 3, 2, 1};
-        bubbleSort(a, a.length);
+        int[] a = {4, 5, 6, 1, 3, 2};
+        bubbleSort(a);
         System.out.println(Arrays.toString(a));
     }
 
-    // 冒泡排序，a 表示数组，n 表示数组大小
-    private static void bubbleSort(int[] a, int n) {
-        if (n <= 1) return;
-
-        for (int i = 0; i < n; ++i) {
-            // 提前退出冒泡循环的标志位
-            boolean flag = false;
-            for (int j = 0; j < n - i - 1; ++j) {
-                if (a[j] > a[j + 1]) { // 交换
-                    int tmp = a[j];
+    private static void bubbleSort(int[] a) {
+        for (int i = 0, length = a.length; i < length; i++) {
+            boolean hasChanged = false;
+            for (int j = 0; j < length - i - 1; j++) {
+                /*
+                j = 0：从0开始从头开始
+                j < length - i - 1：-1是为了后面的j+1不会数组越界
+                                    -i是因为每一次i循环，末尾的i个数字都已经定位了，无需重复执行对比逻辑了
+                 */
+                if (a[j] < a[j + 1]) {
+                    int temp = a[j];
                     a[j] = a[j + 1];
-                    a[j + 1] = tmp;
-                    flag = true;  // 表示有数据交换
+                    a[j + 1] = temp;
+                    hasChanged = true;
                 }
             }
-            if (!flag) break;  // 没有数据交换，提前退出
+            if (!hasChanged) {
+                break;
+            }
         }
     }
 
