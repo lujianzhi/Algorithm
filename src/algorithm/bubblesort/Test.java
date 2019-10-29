@@ -10,6 +10,9 @@ public class Test {
         System.out.println(Arrays.toString(a));
     }
 
+    /**
+     * 冒泡排序
+     */
     private static void bubbleSort(int[] a) {
         for (int i = 0, length = a.length; i < length; i++) {
             boolean hasChanged = false;
