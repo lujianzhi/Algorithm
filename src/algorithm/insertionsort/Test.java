@@ -13,6 +13,9 @@ public class Test {
 
     /**
      * 插入排序
+     * 时间复杂度 O(n^2)
+     * 空间复杂度 O(1)  原地排序
+     * 稳定排序(对于值相同的元素，排序后顺序不变)
      */
     private static void insertionSort(int[] array, int length) {
         for (int i = 1; i < length; i++) {

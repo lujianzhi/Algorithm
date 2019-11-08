@@ -11,6 +11,12 @@ public class Test {
         System.out.println(Arrays.toString(a));
     }
 
+    /**
+     * 归并排序
+     * 时间复杂度 O(nlogn)
+     * 空间复杂度 O(n)
+     * 稳定排序(对于值相同的元素，排序后顺序不变)
+     */
     private static void mergeSort(int[] a, int l, int r) {
         //终止条件
         if (l >= r) {

@@ -12,7 +12,12 @@ public class Test {
         System.out.println(Arrays.toString(a));
     }
 
-    //https://juejin.im/post/5a96d6b15188255efc5f8bbd?utm_source=gold_browser_extension#heading-18
+    /**
+     * 快速排序
+     * 时间复杂度 O(nlogn)
+     * 空间复杂度 O(1) 原地排序
+     * 不稳定排序(对于值相同的元素，排序后顺序变化)
+     */
     private static void quickSort(int[] array, int left, int right) {
         if (left >= right) {
             return;

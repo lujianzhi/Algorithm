@@ -12,6 +12,9 @@ public class Test {
 
     /**
      * 冒泡排序
+     * 时间复杂度 O(n^2)
+     * 空间复杂度O(1) 原地排序
+     * 稳定排序(对于值相同的元素，排序后顺序不变)
      */
     private static void bubbleSort(int[] a) {
         for (int i = 0, length = a.length; i < length; i++) {
