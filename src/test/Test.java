@@ -3,6 +3,7 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Test {
 
@@ -11,9 +12,49 @@ public class Test {
 
         //        testList();
 
-        shaizi();
+        //        shaizi();
+
+        //        threadLocal();
+
+        inheritableThreadLocal();
+
+        ReentrantLock lock = new ReentrantLock();
+        lock.newCondition();
     }
 
+    private static void inheritableThreadLocal() {
+        ThreadLocal<String> tl1 = new InheritableThreadLocal<>();
+        tl1.set("a");
+        System.out.println(Thread.currentThread().getName() + " tl1 : " + tl1.get());
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName() + " tl1 : " + tl1.get());
+            }
+        }).start();
+
+        tl1.remove();
+    }
+
+    private static void threadLocal() {
+        ThreadLocal<String> tl1 = new ThreadLocal<>();
+        tl1.set("a");
+        ThreadLocal<String> tl2 = new ThreadLocal<>();
+        tl2.set("b");
+        System.out.println(Thread.currentThread().getName() + " tl1 : " + tl1.get());
+        System.out.println(Thread.currentThread().getName() + " tl2 : " + tl2.get());
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName() + " tl1 : " + tl1.get());
+                System.out.println(Thread.currentThread().getName() + " tl2 : " + tl2.get());
+            }
+        }).start();
+
+        tl1.remove();
+        tl2.remove();
+    }
 
     private static void shaizi() {
 
