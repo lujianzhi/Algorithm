@@ -17,11 +17,30 @@ public class RevertLinkedList {
 
         System.out.println();
         System.out.println("开始反转");
-        ListNode reversedHead = reverseList(head);
+        //        ListNode reversedHead = reverseList(head);
+        ListNode reversedHead = reverseList_206(head);
 
         System.out.println("反转后");
         LinkedListUtils.printLinkedList(reversedHead);
     }
+
+    private static ListNode reverseList_206(ListNode head) {
+        ListNode pre = null;
+        ListNode current = head;
+        while (current != null) {
+            //暂存
+            ListNode temp = current.next;
+            //改变指向
+            current.next = pre;
+
+            //重新赋值（移动指针位置）
+            pre = current;
+            current = temp;
+        }
+
+        return pre;
+    }
+
 
     /**
      * 在遍历列表时，将当前节点的 next 指针改为指向前一个元素。
