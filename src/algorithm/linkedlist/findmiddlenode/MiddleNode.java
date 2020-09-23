@@ -18,8 +18,21 @@ public class MiddleNode {
         System.out.println("链表");
         LinkedListUtils.printLinkedList(head);
         System.out.println();
-        System.out.println("中点：" + findMiddle(head).val);
+        //        System.out.println("中点：" + findMiddle(head).val);
+        System.out.println("中点：" + middleNode_876(head).val);
     }
+
+    private static ListNode middleNode_876(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
 
     /**
      * 使用快慢指针
