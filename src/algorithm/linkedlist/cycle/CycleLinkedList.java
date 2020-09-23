@@ -28,12 +28,12 @@ public class CycleLinkedList {
         node5.next = node2;
         System.out.println("源链表有环");
         System.out.println("检测结果：");
-        System.out.println(hasCycleHashSet(head));
+        System.out.println(hasCycleHashSet_141(head));
 
         node5.next = null;
         System.out.println("源链表无环");
         System.out.println("检测结果：");
-        System.out.println(hasCycleHashSet(head));
+        System.out.println(hasCycleHashSet_141(head));
     }
 
     /**
@@ -48,7 +48,7 @@ public class CycleLinkedList {
      * 来源：力扣（LeetCode）
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
-    private static boolean hasCycleHashSet(ListNode head) {
+    private static boolean hasCycleHashSet_141(ListNode head) {
         if (head == null) {
             return false;
         }
@@ -78,12 +78,12 @@ public class CycleLinkedList {
         node5.next = node2;
         System.out.println("源链表有环");
         System.out.println("检测结果：");
-        System.out.println(hasCycleSlowAndFast(head));
+        System.out.println(hasCycleSlowAndFast_141(head));
 
         node5.next = null;
         System.out.println("源链表无环");
         System.out.println("检测结果：");
-        System.out.println(hasCycleSlowAndFast(head));
+        System.out.println(hasCycleSlowAndFast_141(head));
     }
 
     /**
@@ -104,7 +104,7 @@ public class CycleLinkedList {
      * 来源：力扣（LeetCode）
      * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
      */
-    private static boolean hasCycleSlowAndFast(ListNode head) {
+    private static boolean hasCycleSlowAndFast_141(ListNode head) {
         if (head == null) {
             return false;
         }
