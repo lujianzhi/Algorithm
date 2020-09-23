@@ -14,7 +14,45 @@ public class Merge {
         ListNode n2 = new ListNode(2, n3);
         ListNode l2 = new ListNode(1, n2);
 
-        LinkedListUtils.printLinkedList(merge(l1, l2));
+        //        LinkedListUtils.printLinkedList(merge(l1, l2));
+//        LinkedListUtils.printLinkedList(mergeTwoLists_21(l1, l2));
+        LinkedListUtils.printLinkedList(mergeTwoLists2_21(l1, l2));
+    }
+
+    private static ListNode mergeTwoLists2_21(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        } else if (l2 == null) {
+            return l1;
+        } else if (l1.val < l2.val) {
+            l1.next = mergeTwoLists2_21(l1.next, l2);
+            return l1;
+        } else {
+            l2.next = mergeTwoLists2_21(l1, l2.next);
+            return l2;
+        }
+    }
+
+    private static ListNode mergeTwoLists_21(ListNode l1, ListNode l2) {
+        //哨兵节点，方便链表的输出
+        ListNode preHead = new ListNode(-1, null);
+
+        ListNode pre = preHead;
+        while (l1 != null && l2 != null) {
+            if (l1.val > l2.val) {
+                pre.next = l2;
+                l2 = l2.next;
+            } else {
+                pre.next = l1;
+                l1 = l1.next;
+            }
+            pre = pre.next;
+        }
+
+        //l1或者l2肯定有一个是null，那么另外那个就直接拼接到末尾即可
+        pre.next = l1 == null ? l2 : l1;
+
+        return preHead.next;
     }
 
     /**
